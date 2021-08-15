@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theatre - Главная</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Open+Sans+Condensed:wght@300;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- HEADER -->
+    <header class="header">
+        <div class="header__contact-inf">
+            <span class='contact-inf__user'></span>
+            <div class="contact-inf__login">
+                <img src="img/user.png" alt="login" class='login__btn'>
+                <img src="img/exit.png" alt="exit" class='login__exitBtn'>
+            </div>
+            <div class="contact-inf__line"></div>
+            <div class="contact-inf__social-media">
+                <img src="img/instagram.png" alt="inst" class="social-media__inst">
+                <img src="img/facebook.png" alt="facebook" class="social-media__fb">
+                <img src="img/vk.png" alt="vk" class="social-medi__vk">
+                <img src="img/youtube.png" alt="youtube" class="social-media__yt">
+            </div>
+        </div>
+        <div class="header__header-content container">
+            <!-- NAV -->
+            <nav class="header-content__nav">
+                <ul class="nav__cont">
+                    <li class="cont__item"><a href="#" class="item__link">Главная</a></li>
+                    <li class="cont__item"><a href="#" class="item__link">О театре</a></li>
+                    <li class="cont__item"><a href="#" class="item__link">Наши постановки</a></li>
+                    <li class="cont__item"><a href="#" class="item__link">партнеры театра</a></li>
+                    <li class="cont__item"><a href="#" class="item__link">контакты</a></li>
+                </ul>
+                <span class="nav__tel">+7 495 123-45-67</span>
+                <!-- MODAL-->
+                <!-- LOG -->
+                <div class="bg-modal-block">
+                    <div class="modal-block">
+                        <div class="modal-block__wrapper">
+                            <div class="wrapper__header">
+                                <span class="header__title">Авторизация</span>
+                                <img src="img/close.png" alt="close" class="header__close">
+                            </div>
+                            <div class="wrapper__inputs">
+                                <input type="text" class="inputs__login inp" id='log-Inp-Log' placeholder="Логин" required>
+                                <input type="password" class="inputs__password inp" id='log-Inp-Pass' placeholder="Пароль" required>
+                            </div>
+                            <div class="wrapper__btns">
+                                <button class="btns__logBtn">Войти</button>
+                                <button class="btns__regBtn">Зарегистрироваться</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- REG -->
+                    <div class="modal-block-reg">
+                        <div class="modal-block__wrapper">
+                            <div class="wrapper__header">
+                                <span class="header__title">Регистрация</span>
+                                <img src="img/close.png" alt="close" class="header__close2">
+                            </div>
+                            <div class="wrapper__inputs">
+                                <input type="text" class="inputs__login inp" id='reg-Inp-Log' placeholder="Логин" required>
+                                <input type="password" class="inputs__password1 inp" id='reg-Inp-Pass' placeholder="Пароль" required>
+                                <input type="password" class="inputs__password2 inp" id='reg-Inp-Pass2' placeholder="Подтвердите пароль" required>
+                            </div>
+                            <div class="wrapper__btns">
+                                <button class="btns__regBtn2">Зарегистрироваться</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- /MODAL LOGIN -->
+            </nav>
+            <!-- /NAV -->
+            <div class="header-content__header-main">
+                <div class="header-main__text-block">
+                    <h1 class="text-block__title">Большой театр<h1>
+                    <p class="text-block__p">Большо́й теа́тр — петербургский театр, существовавший в 1784—1886 годах, с 1886 года — Петербургская консерватория. Первое постоянное в Санкт-Петербурге, крупнейшее в России и одно из крупнейших театральных зданий в Европе XVIII.</p>
+                    <button class='text-block__btn'>Афиша</button>
+                </div>
+
+                <div class="header-main__slider">
+                    <img src="img/brochure2.png" alt="brochure1" class="slider-img1">
+                    <img src="img/brochure1.png" alt="brochure2" class="slider-img2">
+                    <div class="slider__btn-nav">
+                        <span class="btn-nav__left">Пред</span>
+                        <span class="btn-nav__right">След</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- /HEADER -->
+    <!-- MAIN -->
+    <main class="main">
+        <div class="main__about-theatre">
+            <div class="about-theatre__wrapper container">
+                <h2 class="title">О театре</h2>
+                <div class="about-theatre__content">
+                    <div class="content__text">
+                        <p class="text__title">Самый лучший театр СПБ</p>
+                        <p class="text__p">Как свидетельствуют архивные документы, первое каменное здание Большого театра начали возводить в 1775 году по проекту Антонио Ринальди. В дальнейшем, после того как Ринальди упал с лесов и не мог лично наблюдать за ходом работ, Екатерина II поручила немецкому театральному декоратору и архитектору Людвигу Филиппу Тишбейну создать новый проект театра, который и был воплощён архитекторами Ф. В. фон Бауром и М. А. Деденёвым. Открытие его состоялось в 1783 году, хотя, основываясь на других свидетельствах, годом открытия можно считать 1784 год.</p>
+                    </div>
+                    <div class="content__about-num">
+                        <h2 class="about-num__title">Немного о цифрах</h2>
+                        <div class="about-num__first-block">
+                            <img src="img/armchair 1.png" alt="armchair" class="first-block-img">
+                            <p class='first-block__text'><span class="text__num">1600</span> посадочный мест</p>
+                        </div>
+                        <div class="about-num__second-block">
+                            <img src="img/theater 1.png" alt="armchair" class="second-block-img">
+                            <p class='second-block__text'><span class="text__num">350</span> лет истории</p>
+                        </div>
+                    </div>
+                    <img src="img/mini-theatre.png" alt="theatre" class='content__img'>
+                </div>
+            </div>
+        </div>
+
+        <div class="main__our-productions">
+            <h2 class="our-productions__title"><span class='title_gold-color'>Наши</span> постановки</h2>
+            <div class="our-productions__photo-set">
+                <div class="photo-set__card first-card">
+                    <h3 class="card__name">Оскар 2020</h3>
+                    <span class="card__date">Cентябрь 2020</span>
+                    <div class="photo-set__card-mask"></div>
+                </div>
+                <div class="photo-set__card second-card">
+                    <h3 class="card__name">Победа 2020</h3>
+                    <span class="card__date">Июнь 2020</span>
+                    <div class="photo-set__card-mask"></div>
+                </div>
+                <div class="photo-set__card third-card">
+                    <h3 class="card__name">Золотой грамофон</h3>
+                    <span class="card__date">Июль 2020</span>
+                    <div class="photo-set__card-mask"></div>
+                </div>
+                <div class="photo-set__card fourth-card">
+                    <h3 class="card__name">Щелкунчик</h3>
+                    <span class="card__date">Май 2020</span>
+                    <div class="photo-set__card-mask"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main__rating">
+            <div class="rating__years">
+                <span class="years__item">2018</span>
+                <span class="years__item">2019</span>
+                <span class="years__item">2020</span>
+            </div>
+            <div class="rating__info">
+                <img src="img/stars.png" alt="stars" class='info__stars'>
+                <p class="info__text">Лучший театр<br>по мнению театральных<br>критиков Парижа</p>
+            </div>
+        </div>
+
+        <div class="main__sponsors">
+            <h2 class="sponsors__title"><span class='title_gold-color'>Партнеры</span> театра</h2>
+            <div class="sponsors__logo-block">
+                <img src="img/logo-gaz.png" alt="gazprom" class="logo-block__logo">
+                <img src="img/logo-gaz.png" alt="gazprom" class="logo-block__logo">
+                <img src="img/logo-gaz.png" alt="gazprom" class="logo-block__logo">
+                <img src="img/logo-gaz.png" alt="gazprom" class="logo-block__logo">
+            </div>
+            <div class="sponsors__logo-block">
+                <img src="img/logo-gaz.png" alt="gazprom" class="logo-block__logo">
+                <img src="img/logo-gaz.png" alt="gazprom" class="logo-block__logo">
+                <img src="img/logo-gaz.png" alt="gazprom" class="logo-block__logo">
+                <img src="img/logo-gaz.png" alt="gazprom" class="logo-block__logo">
+            </div>
+        </div>
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="footer__patron">
+                <h2 class="patron__title"><span class='title_gold-color'>Стать</span> меценатом</h2>
+
+                <div class="patron__content">
+                    <div class="content__contact-inf">
+                        <span class="contact-inf__item">+7 (812) 123-45-55</span>
+                        <span class="contact-inf__item">+7 (812) 123-45-66</span>
+                        <span class="contact-inf__item">info@theater.ru</span>
+                        <span class="contact-inf__item">г. санкт-петербург, невский 140</span>
+                    </div>
+                    <form class="form">
+                        <div class="form__inputs">
+                            <div class="inf__first-col">
+                                <input type="text" placeholder="Имя" required class="inp-name inp">
+                                <input type="tel" placeholder="Телефон" required class="inp-tel inp">
+                            </div>
+                            <div class="inf__second-col">
+                                <input type="text" placeholder="Компания" required class="inp-company inp">
+                                <input type="text" placeholder="E-mail" required class="inp-email inp">
+                            </div>
+                            <div class="inf__third-col">
+                                <textarea placeholder="Сообщение" required class='textarea'></textarea>
+                            </div>
+                        </div>
+                        <div class="form__text-btn">
+                            <p class="text-btn__text">* Ваши данные не будут переданы третьим лицам, 100% вероятность. Конфиденциальность мы гарантируем, и защищаем персональные данные согласно законку ФЗ-52.</p>
+                            <button class="text-btn__btn">Отправить</button>
+                        </div>
+                    </form>
+                </div>
+                <div class='content__line'><div>
+                <div class="content__inf">
+                    <p class="inf__rules">© Все права защищены. Большой театр. 2020</p>
+                    <p class='inf__developed'>Разработано d-e-n.ru</p>
+                </div>
+            </div>
+        </footer>
+        <!-- /FOOTER -->
+
+    </main>
+    <!-- /MAIN -->
+
+
+    <!-- SCRIPT -->
+    <script src="app.js"></script>
+</body>
+</html>
